@@ -1,5 +1,3 @@
-import axios from "axios";
-import { API_URI } from "./config";
+import { axiosAPI } from "../utils/axiosInstance";
 
-export const registerRequest = (user) =>
-  axios.post(`${API_URI}/register`, user);
+export const registerRequest = (user) => axiosAPI.post("/registe", user);

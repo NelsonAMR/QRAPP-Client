@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,700&family=Roboto:wght@300;400;700&display=swap');
+
 *, *::before, *::after{
   margin: 0;
   padding: 0;
@@ -6,9 +8,39 @@
 
 html{
   font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
-  background: #202020;
+  background-color: #01948111;
+  font-size: 1.6rem;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 150ms;
+
+  &:hover {
+    color: #ffdb67;
+  }
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  width: 15rem;
+  height: 4rem;
+  border: none;
+  background-color: #019481;
+  border-radius: 0.5rem;
+  font-size: 1.8rem;
   color: #fff;
 }
