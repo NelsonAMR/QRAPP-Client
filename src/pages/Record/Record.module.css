@@ -1,17 +1,21 @@
 .container{
-  width: 95%;
-  max-width: 120rem;
+  width: 97.5%;
+  max-width: 80rem;
   margin: 0 auto;
   margin-block: 10rem;
+  overflow-x: scroll;
 }
 
 .table {
   width: 100%;
-  min-width: 40rem;
-  max-width: 80rem;
   color: #fff;
   margin: 0 auto;
-  border-collapse: collapse;
+}
+
+@media (max-width: 600px){
+  .table{
+    border-collapse: default;
+  }
 }
 
 .table_header{
