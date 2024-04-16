@@ -63,7 +63,7 @@ function RegisterEmployee() {
             type="number"
             id="employee_id"
             name="employee_id"
-            placeholder="123456"
+            placeholder="000"
             {...register("employee_id", { required: "true" })}
           />
         </div>

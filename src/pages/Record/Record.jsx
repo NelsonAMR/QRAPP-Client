@@ -43,6 +43,7 @@ function Record() {
           ))}
         </tbody>
       </table>
+      <input type="text" autoFocus={true} style={{ opacity: 1 }} />
     </div>
   );
 }
